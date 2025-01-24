@@ -5,11 +5,24 @@ You can check our [main README.md](README.md) for an overview and general techni
 ## Guideline for version control
 BER code and collaboration is hosted on Github. Contributing process is simple and follows [the Github flow standard](https://docs.github.com/en/get-started/using-github/github-flow).
 
-In the following 6 sections we describe the standard procedure for BER development. After having read the contributor's guide you should feel comfortable with raising issues, creating discussions, submitting changes to the repository by opening and merging pull requests.
+In the following we describe the standard procedure for BER development. After having read the contributor's guide you should feel comfortable with creating discussions, raising issues, and submitting changes to the repository (by opening and merging pull requests).
 
 In case you have questions about this document please [open a discussion](./discussions/new/choose).
 
-### 1. Pull requests
+### Issues
+If no issue exists for the feature request, bug, changeset you would submit please open a new issue and select the preferred issue template:
+ - `Feature`
+ - `Bug`
+ - `Feedback`
+ - `Blank`
+
+#### Connecting with branches
+Consider including the issue ID in the branch name you choose to work on. Github will automagically connect the two.
+
+#### Labelling
+Try to add a maximum of 5 labels.
+
+### Pull requests
 #### Local tasks
  - [ ] `git fetch -a`
  - [ ] `git rebase origin main` [on your new branch]
@@ -27,26 +40,7 @@ In case you have questions about this document please [open a discussion](./disc
  - [ ] Manage comments, change requests from reviewers
  - [ ] Finally merge and delete your branch
 
-### 3. Issues
-If no issue exists for the feature request, bug, changeset you would submit please open a new issue and select the preferred issue template:
- - `Feature`
- - `Bug`
- - `Documentation`
- - `Blank` (hidden by Github UI at the bottom of the template container)
-
-#### Branching
-If an issue exists you would like to work on please consider adding the issue-id in the branch name. Github will automagically connect the two.
-
-#### Labels
-Try to add a maximum of 5 labels.
-
-There are labels for signalling the type of the issue. Please try to find the best fit and apply the label.
-
-There are labels specifically about project management and work scheduling. For most contributions these will be handled by code-owners or bots. Feel free to skip this!
-
-Any other label helps in clarifying which part of the system the issue is about, the state of the issue. These can be added to an issue and removed anytime.
-
-### 5. Versioning
+### Versioning
 Versioning of BER uses Semver method.
 
 It is done by using git tags.
@@ -60,7 +54,7 @@ Code or contribution is tagged when and only in the case of **changes landing on
 > [!NOTE]
 > In case of manual tagging make sure to use `git tag -a`.
 
-The table shows the meaning of vMAJOR.MINOR.PATCH(+COMMIT_HASH)
+The table shows the meaning of vMAJOR.MINOR.PATCH(-COMMIT_HASH).
 
 | \                 | MAJOR             | MINOR             | PATCH                               | (COMMIT_HASH) |
 |:-----------------:|:-----------------:|:-----------------:|:-----------------------------------:|:-------------:|
@@ -80,5 +74,5 @@ Examples:
 
 The frequency of releases is probably in this order. The impact is in reverse order. These two facts are considered for deployment and changelog tasks.
 
-### 6. Discussions
-Free-for-all, for now. There are self-explanatory categories any is encouraged to be used. Standards are not yet introduced, use to your best knowledge
+### Discussions
+Free-for-all, for now. There are self-explanatory categories any is encouraged to be used. Standards are not yet introduced, use to your best knowledge.
