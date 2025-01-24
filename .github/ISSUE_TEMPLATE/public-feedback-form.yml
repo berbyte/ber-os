@@ -1,0 +1,28 @@
+name: Feedback
+description: Share your feedback about your BER experience.
+title: "[Feedback]: "
+labels: ["triage"]
+projects: []
+assignees:
+  - pvj
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please take your time to fill out each field with attention. Consult with [BER documentation](https://rtfm.ber.run) for any help!
+  - type: textarea
+    id: experience
+    attributes:
+      label: What was your experience?
+      description: Please describe the what you miss, what you like from the BER application. ( You can upload images and videos for illustration as well. )
+      placeholder: Write down your experiences and please add any context for your use-case that might be important to be aware of.
+      validations:
+        required: true
+ - type: checkboxes
+    id: terms
+    attributes:
+      label: Accept BER Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://https://github.com/berbyte/ber-os/blob/main/.github/CODE_OF_CONDUCT.md).
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true

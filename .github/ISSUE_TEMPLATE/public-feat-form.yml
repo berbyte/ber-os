@@ -1,0 +1,41 @@
+name: New feature request
+description: Suggest an improvement or share your feature request.
+title: "[Feat]: "
+labels: ["enhancement", "triage"]
+projects: []
+assignees:
+  - pvj
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please take your time to fill out each field with attention. Consult with [BER documentation](https://rtfm.ber.run) for any help!
+  - type: textarea
+    id: feature-request
+    attributes:
+      label: How would you improve BER?
+      description: We try to bring out the best from this system. If you have ideas we are happy to hear from you!
+      placeholder: This is my great idea!
+      value: |
+        Brief overview:
+          -
+          * [ ] Feature
+          * [ ] Improvement suggestion
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant screenshots, videos, log output, etc.
+      description: Please copy and paste any relevant log output. (This will be automatically formatted into code, so no need for backticks.)
+      render: shell
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Accept BER Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://https://github.com/berbyte/ber-os/).
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
