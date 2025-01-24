@@ -16,8 +16,8 @@ body:
       label: What was your experience?
       description: Please describe the what you miss, what you like from the BER application. ( You can upload images and videos for illustration as well. )
       placeholder: Write down your experiences and please add any context for your use-case that might be important to be aware of.
-      validations:
-        required: true
+    validations:
+      required: true
   - type: checkboxes
     id: terms
     attributes:
