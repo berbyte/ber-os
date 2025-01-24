@@ -1,13 +1,13 @@
 # Thank you for visiting and welcome to BER's HOWTO!
 ## For new contributors
-You can check our [main README.md](README.md) for an overview and general technical information about BER.
+You can check our [main README.md](../README.md) for an overview and general technical information about BER.
 
 ## Guideline for version control
 BER code and collaboration is hosted on Github. Contributing process is simple and follows [the Github flow standard](https://docs.github.com/en/get-started/using-github/github-flow).
 
 In the following we describe the standard procedure for BER development. After having read the contributor's guide you should feel comfortable with creating discussions, raising issues, and submitting changes to the repository (by opening and merging pull requests).
 
-In case you have questions about this document please [open a discussion](./discussions/new/choose).
+In case you have questions about this document please [open a discussion](https://github.com/berbyte/ber-os/discussions/new/choose).
 
 ### Issues
 If no issue exists for the feature request, bug, changeset you would submit please open a new issue and select the preferred issue template:
