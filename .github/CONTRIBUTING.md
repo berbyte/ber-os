@@ -45,7 +45,7 @@ Versioning of BER uses Semver method.
 
 It is done by using git tags.
 
-Each version must have a corresponding release. Releases are [hosted with the repository](https://github.com/berbyte/ber/releases).
+Each version must have a corresponding release. Releases are [hosted with the repository](https://github.com/berbyte/ber-os/releases).
 
 #### When to apply?
 Code or contribution is tagged when and only in the case of **changes landing on the `main` branch**.
