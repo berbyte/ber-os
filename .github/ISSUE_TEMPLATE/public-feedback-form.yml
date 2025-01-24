@@ -18,7 +18,7 @@ body:
       placeholder: Write down your experiences and please add any context for your use-case that might be important to be aware of.
       validations:
         required: true
- - type: checkboxes
+  - type: checkboxes
     id: terms
     attributes:
       label: Accept BER Code of Conduct
