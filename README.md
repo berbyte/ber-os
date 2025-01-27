@@ -29,6 +29,12 @@
 
 BER is the glue enabling your own AI-powered workflows. With BER, you can employ the power of AI in your problem domains. Connect your workflows to any interface and collaborate with any API—all in natural language.
 
+## Why BER?
+
+- 🛑 Manual workflow automation is slow and error-prone, wasting valuable time.
+- ✅ BER helps engineers, developers, and businesses to integrate tools and APIs using the power of LLMs.
+
+
 ## Demo
 
 <div align="center">
@@ -42,10 +48,6 @@ BER is the glue enabling your own AI-powered workflows. With BER, you can employ
 > Check out our [use cases documentation](https://rtfm.ber.run/getting-started/usecases/) to explore examples of how BER can help you.
 >
 
-## Why BER?
-
-- 🛑 Manual workflow automation is slow and error-prone, wasting valuable time.
-- ✅ BER helps engineers, developers, and businesses to integrate tools and APIs using the power of LLMs.
 
 ### Key Features
 
