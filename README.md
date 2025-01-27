@@ -1,6 +1,6 @@
 <a id="readme-top"></a>
 
-> [!important]
+> [!note]
 >
 > 🚧 **Active Development Phase** 🚧
 >
