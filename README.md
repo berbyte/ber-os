@@ -27,15 +27,17 @@
 
 ## What is this all about?
 
-BER is the glue enabling your own AI-powered workflows. With BER, you can employ the power of AI in your problem domains. Connect your workflows to any interface and collaborate with any API—all in natural language.
+BER connects the tools you already use to manage your business with any third-party or internal system, letting you automate tasks and workflows using simple natural language commands powered by AI.
 
 ## Why BER?
 
-- 🛑 Manual workflow automation is slow and error-prone, wasting valuable time.
+- 🛑 Repetitive manual tasks drain time and resources, reducing productivity and scalability.
 - ✅ BER helps engineers, developers, and businesses to integrate tools and APIs using the power of LLMs.
 
 
 ## Demo
+
+__💡 See how BER simplifies DNS management directly through GitHub Issues; one of many powerful use cases:__
 
 <div align="center">
   <img src="https://rtfm.ber.run/demo.gif" alt="BER Demo">
@@ -51,15 +53,17 @@ BER is the glue enabling your own AI-powered workflows. With BER, you can employ
 
 ### Key Features
 
-- **Superglue for Your Tools**: Connect ITSM, chat, ticketing, git platforms, and more with any API, database, or cloud provider.
-- **Universal Assistance**: Customize BER in new roles, access them from your closest lying interface.
-- **Highly Customizable Workflows**: Build workflows tailored to your organization's unique needs.
-- **Control over AI**: Use the combination of Skills, Hooks, Actions, and Validators to control conversational LLM-type AI models.
-- **Developer-First Design**: Built with engineers in mind, offering intuitive APIs and straightforward documentation.
-- **Open-Source Freedom**: Fully open-source under an Apache license—no vendor lock-in, complete transparency, and a community-driven ecosystem.
+- **Connect Your Tools**: Link the software you already use with any system or API, eliminating manual work.
+- **Natural Language Commands**: Automate tasks easily with AI-powered natural language instructions.
+- **Custom Workflows**: Build workflows that fit your business needs and adapt them as you grow.
+- **Full Control Over AI**: Fine-tune tasks using tools like Skills, Hooks, and Actions for accurate results.
+- **Made for Developers**: Simple APIs and clear documentation make it easy to get started and customize.
+- **Open-Source Freedom**: No vendor lock-in, free, and supported by the community.
 
 
 ## High-Level Diagram
+
+__💡 This diagram shows how BER connects the tools you already use to manage your business with other systems you currently handle manually, streamlining your workflows:__
 
 <div align="center">
     <a href="https://rtfm.ber.run">
@@ -105,26 +109,14 @@ cd ber-os
 go mod tidy
 ```
 
-### TUI Usage
-> [!CAUTION]
-> The TUI adapter is currently in an experimental state. We recommend using the [GitHub adapter](#github-application-usage) which provides a more stable and feature-complete experience.
+You can now decide how you want to run BER:
 
-1. Set the environment variable
+<details>
+<summary><h3>Running BER as a GitHub Application</h3></summary>
 
-```
-export OPENAI_API_KEY=""
-```
+1. Create a GitHub App by following our [documentation guide](https://rtfm.ber.run/guides/howto-adapter-github-install/). This will provide you with the required credentials for the next steps.
 
-2. Run the TUI:
-
-```
-go run . tui
-```
-
-### GitHub Application Usage
-0. Create a GitHub App by following our [documentation guide](https://rtfm.ber.run/guides/howto-adapter-github-install/). This will provide you with the required credentials for the next steps.
-
-1. Set the environment variables
+2. Set the environment variables
 ```
 export GH_APP_ID=""
 export GH_PRIVATE_KEY="" # base64 decoded pem
@@ -146,14 +138,53 @@ go run . webhook --debug
 
 For detailed GitHub adapter usage instructions, please visit our [GitHub Adapter Tutorial](https://rtfm.ber.run/tutorials/github/).
 
+</details>
 
-### Build Your First Agent
+<details>
+<summary><h3>Running BER as a Terminal User Interface</h3></summary>
+
+‼️ **The TUI adapter is currently in an experimental state.** ‼️
+
+1. Set the environment variable
+
+```
+export OPENAI_API_KEY=""
+```
+
+2. Run the TUI:
+
+```
+go run . tui
+```
+
+</details>
+
+
+### Final Step: Build Your Own Agents
 Now that you have the environment set up, you're ready to build your first BERAgent! Check out our [Agent Building Tutorial](https://rtfm.ber.run/tutorials/agent/) to get started with creating custom agents for your specific use cases.
 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ROADMAP -->
+## Public Roadmap
+
+- Adapters:
+  - [ ] Jira
+  - [ ] Slack
+  - [ ] Teams
+  - [ ] GitHub improvements - PR, code, discussions
+- Core:
+  - [ ] Improving Agent selection
+  - [ ] Skill Chaining
+  - [ ] Collaborating Agents
+  - [ ] Adapter and Agent separation from core
+  - [ ] Long-term memory
+  - [ ] Multi tenancy
+  - [ ] Session separations for chat adapters
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 ## Contributing
