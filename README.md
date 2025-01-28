@@ -57,7 +57,7 @@ __💡 See how BER simplifies DNS management directly through GitHub Issues; one
 - **Natural Language Commands**: Automate tasks easily with AI-powered natural language instructions.
 - **Full Control Over AI**: Fine-tune tasks using tools like Skills, Hooks, and Actions for accurate results.
 - **Made for Developers**: Simple APIs and clear documentation make it easy to get started and customize.
-- **Open-Source Freedom**: No vendor lock-in, free, and supported by the community.
+- **Open-Source Freedom**: Apache License. No vendor lock-in, free, and supported by the community.
 
 
 ## High-Level Diagram
