@@ -62,7 +62,7 @@ __💡 See how BER simplifies DNS management directly through GitHub Issues; one
 
 ## High-Level Diagram
 
-__💡 This diagram shows how BER connects the tools you already use to manage your business with other systems you currently handle manually, streamlining your workflows:__
+__💡 This diagram shows how BER connects the tools you already use to manage your business with other systems you currently handle manually:__
 
 <div align="center">
     <a href="https://rtfm.ber.run">
