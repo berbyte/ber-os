@@ -55,7 +55,6 @@ __💡 See how BER simplifies DNS management directly through GitHub Issues; one
 
 - **Connect Your Tools**: Link the software you already use with any system or API, eliminating manual work.
 - **Natural Language Commands**: Automate tasks easily with AI-powered natural language instructions.
-- **Custom Workflows**: Build workflows that fit your business needs and adapt them as you grow.
 - **Full Control Over AI**: Fine-tune tasks using tools like Skills, Hooks, and Actions for accurate results.
 - **Made for Developers**: Simple APIs and clear documentation make it easy to get started and customize.
 - **Open-Source Freedom**: No vendor lock-in, free, and supported by the community.
