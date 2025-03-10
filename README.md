@@ -1,17 +1,8 @@
 <a id="readme-top"></a>
 
-> [!note]
->
-> 🚧 **Active Development Phase** 🚧
->
-> BER is under active development. Features and APIs are subject to change as we work toward a stable release. We welcome early adopters and value your feedback.
->
-> [Give Feedback](https://github.com/berbyte/ber-os/discussions/new?category=feedback)
-
-
 <div align="center">
     <img src="https://rtfm.ber.run/ber-intro.png" alt="BER: LLM SuperGlue">
-  <h1 align="center">BER: LLM SuperGlue v0.1</h1>
+  <h1 align="center">BER: Connect, Automate, and Sync Everything v0.1</h1>
   <p align="center">
     <a href="https://rtfm.ber.run"><strong>Explore the docs »</strong></a>
     <br />
@@ -25,9 +16,14 @@
 
 </div>
 
-## What is this all about?
+## Overview
 
-BER connects the tools you already use to manage your business with any third-party or internal system, letting you automate tasks and workflows using simple natural language commands powered by AI.
+BER is the superglue between your collaboration tools (Email, GitHub, Jira, Teams) and the APIs, Cloud providers, and databases you need to manage.
+
+Powered by an LLM, it understands natural language commands, translates them into executable actions, and runs them with your approval.
+
+Automating workflows, reducing manual effort, and keeping everything in sync.
+
 
 ## Why BER?
 
@@ -66,7 +62,7 @@ __💡 This diagram shows how BER connects the tools you already use to manage y
 
 <div align="center">
     <a href="https://rtfm.ber.run">
-    <img src="https://rtfm.ber.run/diagrams/ber-intro-splash.svg" alt="BER: LLM SuperGlue">
+    <img src="https://rtfm.ber.run/diagrams/ber-intro-splash.png" alt="BER: LLM SuperGlue">
   </a>
 </div>
 
@@ -95,6 +91,17 @@ Each agent can be customized and extended to meet your specific needs. For detai
 
 
 ## Getting Started
+
+> [!note]
+>
+> 🚧 **Active Development Phase** 🚧
+>
+> BER is under active development. Features and APIs are subject to change as we work toward a stable release. We welcome early adopters and value your feedback.
+>
+> [Give Feedback](https://github.com/berbyte/ber-os/discussions/new?category=feedback)
+
+
+
 1. Clone the repository:
 
 ```
@@ -108,7 +115,7 @@ cd ber-os
 go mod tidy
 ```
 
-You can now decide how you want to run BER:
+Choose how to run BER:
 
 <details>
 <summary><h3>Running BER as a GitHub Application</h3></summary>
