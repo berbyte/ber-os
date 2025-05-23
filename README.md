@@ -20,7 +20,7 @@
 
 BER is the superglue between your collaboration tools (Email, GitHub, Jira, Teams) and the APIs, Cloud providers, and databases you need to manage.
 
-Powered by an LLM, it understands natural language commands, translates them into executable actions, and runs them with your approval.
+Powered by an LLM, it understands natural language commands, translates them into executable actions, and safely executes them with your approval.
 
 Automating workflows, reducing manual effort, and keeping everything in sync.
 
